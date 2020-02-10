@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://dasoljong.github.io',
   pathPrefix: '/',
   title: 'Blog by Dasol Jong',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  subtitle: 'Written by Dasol Jong who lives and works in Seoul, Korea building useful things.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
