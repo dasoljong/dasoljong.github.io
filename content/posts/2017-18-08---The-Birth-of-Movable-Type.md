@@ -1,6 +1,6 @@
 ---
 title: "Position of JVS(JVS의 위치)"
-date: "2020-02-09T22:12:03.284Z"
+date: "2020-02-10T22:12:03.284Z"
 template: "post"
 draft: false
 slug: "position-of-JVS"
