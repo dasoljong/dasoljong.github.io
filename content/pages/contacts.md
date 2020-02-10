@@ -6,13 +6,17 @@ socialImage: "/media/image-4.jpg"
 
 ## Gmail Address
 
-- dasoljong92@gmail.com
+- https://www.dasoljong92@gmail.com
 
 
 ## Instagram
 
-- instagram.com/dasoljong
+- https://www.instagram.com/dasoljong
 
+
+## Linkedin
+
+- https://www.linkedin.com/in/dasoljong/
 
 ## KakaoTalk
 
