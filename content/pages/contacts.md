@@ -4,7 +4,7 @@ template: "page"
 socialImage: "/media/image-4.jpg"
 ---
 
-## Gmail Address
+## Gmail
 
 - https://www.dasoljong92@gmail.com
 
