@@ -1,51 +1,81 @@
 ---
-title: "hello world"
-date: "2016-12-01T22:40:32.169Z"
+title: ".querySelector()"
+date: "2020-02-11T22:40:32.169Z"
 template: "post"
 draft: false
-slug: "the-origins-of-social-stationery-lettering"
-category: "Design Culture"
-description: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante."
+slug: "특정 CSS 선택잘르 가진 첫 번째 요소를 선택하는 메서드"
+category: "JAVASCRIPT"
+description: ".querySelector()는 CSS 선택자로 요소를 선택하게 해줍니다. 주의할 점은 선택자에 해당하는 첫번째 요소만 선택한다는 것입니다."
+tags:
+  - "JVS"
+  - "JavaScript"
+  - "Frontend"
+  - "DOM"
+  - "CSS"
+  - "HTML"
 socialImage: "/media/image-3.jpg"
 ---
 
-**Pellentesque habitant morbi tristique** senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. *Aenean ultricies mi vitae est.* Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. 
+## .querySelector()
 
-Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.  [Donec non enim](#) in turpis pulvinar facilisis.
-
-![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](/media/image-3.jpg)
-
-## Header Level 2
-
-+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-+ Aliquam tincidunt mauris eu risus.
-
-Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. 
-
-<figure>
-	<blockquote>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
-		<footer>
-			<cite>— Aliquam tincidunt mauris eu risus.</cite>
-		</footer>
-	</blockquote>
-</figure>
-
-### Header Level 3
-
-+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-+ Aliquam tincidunt mauris eu risus.
-
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
-
+문법:
 ```css
-#header h1 a {
-  display: block;
-  width: 300px;
-  height: 80px;
-}
+document.querySelector('selector')
+````
+
+예를 들어, 
+````css
+document.querySelector('.abc')
+````
+는 클래스 값이 abc인 첫번째 요소에 접근한다.
+
+## 예제1
+
+클래스 값으로 abc를 갖는 요소 중 첫 번째 요소의 색을 빨간색으로 만든다.
+
+```html
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <p class="abc">Lorem Ipsum Dolor</p>
+    <p class="abc">Lorem Ipsum Dolor</p>
+    <p class="abc">Lorem Ipsum Dolor</p>
+    <script>
+      document.querySelector( '.abc' ).style.color = 'red';
+    </script>
+  </body>
+</html>
 ```
 
-Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+![qS_ex1](https://www.codingfactory.net/wp-content/uploads/JavaScript-querySelector-01.png)
 
-![Test SVG](/media/cpu.svg)
+
+## 예제2
+
+div의 하위 요소 중 클래스 값으로 abc를 갖는 첫 번째 요소를 빨간색으로 만든다.
+
+```html
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <p class="abc">Lorem Ipsum Dolor</p>
+    <div>
+      <p class="abc">Lorem Ipsum Dolor</p>
+      <p class="abc">Lorem Ipsum Dolor</p>
+    </div>
+    <script>
+      document.querySelector( 'div .abc' ).style.color = 'red';
+    </script>
+  </body>
+</html>
+```
+
+![qS_ex2](https://www.codingfactory.net/wp-content/uploads/JavaScript-querySelector-02.png)
