@@ -1,5 +1,5 @@
 ---
-title: "A Brief History of Typography"
+title: "왜 제목이 안바뀌냐ㅡㅡ"
 date: "2016-02-02T22:40:32.169Z"
 template: "post"
 draft: false
