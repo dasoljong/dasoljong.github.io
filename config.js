@@ -29,10 +29,21 @@ module.exports = {
     photo: '/dasol.jpg',
     bio: 'Written by Dasol Jong who lives and works in Seoul, Korea building useful things.',
     contacts: {
-      email: 'dasoljong92@gmail.com',
-      facebook: '#facebook.com/dasoljong',
-      linkedin: 'www.linkedin.com/in/dasoljong',
-      instagram: 'instagram.com/dasoljong',
+      email: '',
+      facebook: '#',
+      telegram: '#',
+      twitter: '#',
+      github: '#',
+      rss: '',
+      vkontakte: '',
+      linkedin: '#',
+      instagram: '#',
+      line: '',
+      gitlab: '',
+      weibo: '',
+      codepen: '',
+      youtube: '',
+      soundcloud: '',
     }
   }
 };
