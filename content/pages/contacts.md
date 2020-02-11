@@ -17,8 +17,3 @@ socialImage: "/media/image-4.jpg"
 ## Instagram
 
 - https://www.instagram.com/dasoljong
-
-
-## KakaoTalk
-
-- ID : djong2
