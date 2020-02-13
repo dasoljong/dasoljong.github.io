@@ -16,7 +16,6 @@ socialImage: "/media/image-2.jpg"
 ## CodeKata : Reverse Integer and Comapare
 
 ### 문제: 
-* 문제
 
 숫자인 num을 인자로 넘겨주면, 뒤집은 모양이 num과 똑같은지 여부를 반환해주세요.
 
@@ -24,7 +23,7 @@ socialImage: "/media/image-2.jpg"
 <br>return: true or false (뒤집은 모양이 num와 똑같은지 여부)
 
 
-<br>예를 들어,
+<br><br>예를 들어,
 <br>num = 123
 <br>return false 
 <br>=> 뒤집은 모양이 321 이기 때문
