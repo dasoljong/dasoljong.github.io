@@ -20,7 +20,7 @@ socialImage: "/media/image-2.jpg"
 <br>그 숫자를 뒤집어서 return해주세요.
 
 <br>x: 숫자
-<br>return: 뒤집어진 숫자를 반환!
+<br>return: 뒤집어진 숫자를 반환!!
 
 예들 들어,
 
