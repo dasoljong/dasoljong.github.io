@@ -1,9 +1,9 @@
 ---
-title: "React-Component & Props"
+title: "React - Component & Props"
 date: "2020-02-19T23:46:37.121Z"
 template: "post"
 draft: false
-slug: "React Component & Props"
+slug: "React - Component & Props"
 category: "React"
 tags:
   - "React"
@@ -12,7 +12,7 @@ tags:
   - "JSX"
   - "Component"
   - "Props"
-description: "React-Component & Props"
+description: "React - Component & Props"
 socialImage: "/media/image-2.jpg"
 ---
 
@@ -73,9 +73,8 @@ class App extends React.Component {
 }
 
 // 3. 화면에 React 요소 그려주기
-
 ReactDOM.render(
-  <App />.
+  <App />,
   document.getElementById('root')
 );
 
@@ -86,3 +85,5 @@ ReactDOM.render(
 3. ReactDOM.render 함수로 React요소를 그려준다. root라는 id를 찾아 <App /> 컴포먼트를 그려준다.
 
 
+### reference
+- yeri-kim.github.io
