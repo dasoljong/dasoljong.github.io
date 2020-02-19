@@ -1,6 +1,6 @@
 ---
 title: "React - Props"
-date: "2020-02-19T23:46:37.121Z"
+date: "2020-02-19T07:46:37.121Z"
 template: "post"
 draft: false
 slug: "React - Props"
