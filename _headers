@@ -118,6 +118,15 @@
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
   Link: </commons-a35482c72b401baf8ff9.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-5f449cae0bb2fa9985ef.js>; rel=preload; as=script
+/posts/React - Component & Props
+  Link: </webpack-runtime-944c45a84cb1f62b4cf0.js>; rel=preload; as=script
+  Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
+  Link: </commons-a35482c72b401baf8ff9.js>; rel=preload; as=script
+  Link: </netlify-identity-widget-8e6f024872c0d48ae324.js>; rel=preload; as=script
+  Link: </app-4881c9fe6541e4b3efd9.js>; rel=preload; as=script
+  Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
+  Link: </commons-a35482c72b401baf8ff9.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-5f449cae0bb2fa9985ef.js>; rel=preload; as=script
 /posts/Basic of React
   Link: </webpack-runtime-944c45a84cb1f62b4cf0.js>; rel=preload; as=script
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
@@ -136,7 +145,7 @@
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
   Link: </commons-a35482c72b401baf8ff9.js>; rel=preload; as=script
   Link: </component---src-templates-post-template-js-5f449cae0bb2fa9985ef.js>; rel=preload; as=script
-/posts/React - Component & Props
+/posts/React - JSX
   Link: </webpack-runtime-944c45a84cb1f62b4cf0.js>; rel=preload; as=script
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
   Link: </commons-a35482c72b401baf8ff9.js>; rel=preload; as=script
@@ -154,15 +163,6 @@
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
   Link: </commons-a35482c72b401baf8ff9.js>; rel=preload; as=script
   Link: </component---src-templates-page-template-js-30c9f68011554c8c6d0c.js>; rel=preload; as=script
-/posts/React - JSX
-  Link: </webpack-runtime-944c45a84cb1f62b4cf0.js>; rel=preload; as=script
-  Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
-  Link: </commons-a35482c72b401baf8ff9.js>; rel=preload; as=script
-  Link: </netlify-identity-widget-8e6f024872c0d48ae324.js>; rel=preload; as=script
-  Link: </app-4881c9fe6541e4b3efd9.js>; rel=preload; as=script
-  Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
-  Link: </commons-a35482c72b401baf8ff9.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-5f449cae0bb2fa9985ef.js>; rel=preload; as=script
 /pages/contacts/
   Link: </webpack-runtime-944c45a84cb1f62b4cf0.js>; rel=preload; as=script
   Link: </styles-117479406f6e61ad4793.js>; rel=preload; as=script
