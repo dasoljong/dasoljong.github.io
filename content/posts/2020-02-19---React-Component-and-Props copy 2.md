@@ -1,9 +1,9 @@
 ---
-title: "React - Component & Props"
+title: "React - Component"
 date: "2020-02-19T23:46:37.121Z"
 template: "post"
 draft: false
-slug: "React - Component & Props"
+slug: "React - Component"
 category: "React"
 tags:
   - "React"
@@ -12,7 +12,7 @@ tags:
   - "JSX"
   - "Component"
   - "Props"
-description: "React - Component & Props"
+description: "Component"
 socialImage: "/media/image-2.jpg"
 ---
 
