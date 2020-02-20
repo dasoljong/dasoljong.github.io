@@ -1,9 +1,9 @@
 ---
-title: "React - export/import"
+title: "React - Named/Default export"
 date: "2020-02-20T09:46:37.121Z"
 template: "post"
 draft: false
-slug: "React - export/import"
+slug: "React - Named/Default export"
 category: "React"
 tags:
   - "React"
@@ -11,7 +11,7 @@ tags:
   - "JavaScript"
   - "export"
   - "import"
-description: "export & import"
+description: "Named/Default export"
 socialImage: "/media/image-2.jpg"
 ---
 
