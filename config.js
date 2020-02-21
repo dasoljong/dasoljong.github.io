@@ -30,20 +30,10 @@ module.exports = {
     bio: 'Written by Dasol who lives and works in Seoul, Korea building useful things.',
     contacts: {
       email: 'dasoljong92@gmail.com',
-      facebook: '/dasoljong',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '/in/dasoljong',
-      instagram: '/dasoljong',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: '',
-      soundcloud: '',
+      facebook: 'dasoljong',
+      github: 'dasoljong',
+      linkedin: 'dasoljong',
+      instagram: 'dasoljong'
     }
   }
 };
