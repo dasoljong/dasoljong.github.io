@@ -1,168 +1,31 @@
 ---
-title: "React - state"
-date: "2020-02-20T08:46:37.121Z"
+title: "CSS - 우선순위 "
+date: "2020-02-26T01:46:37.121Z"
 template: "post"
 draft: false
-slug: "React - state"
+slug: "CSS - 우선순의"
 category: "React"
 tags:
-  - "React"
   - "Frontend"
   - "JavaScript"
-  - "JSX"
-  - "Component"
-  - "Props"
-  - "state"
-  - "setState"
-description: "state & setState"
+  - "CSS"
+description: "CSS의 우선순위에 대하여 알아보자"
 socialImage: "/media/image-2.jpg"
 ---
 
-# State
+# CSS 우선순위
 
-정해진 데이터를 다룰떈 props, 동적인 데이터를 다룰땐 state를 사용한다. 
-아래 Counter 라는 파일을 생성해서 새로운 컴포넌트를 만들어 보았다.
+웹 사이트를 제작하다보면 하나의 태그에 여러 가지의 CSS가 적용될 때가 있다. 이 때 특정한 규칙에 따라 CSS에 우선 순위가 부여되어 적용된다.
+이러한 규칙을 CSS 우선순위라 한다.
 
-```jsx
-import React, { Component } from 'react';
+규칙은 아래와 같다.
 
-class Counter extends React.Component {
+- 기본적으로 뒤에 나오는 CSS가 우선순위가 높다.
+- !important > inline style attribute > id > class. 다른 attribute, 수도클래스(:first-child 같은 것) > tag element, 수도 엘레먼트(::before 같은 것) 순으로 우선순위가 높다.
+- 우선순위가 같다면 개수가 많은 css가 우선순위가 높다.
 
-  state = {
-    number: 0
-  }
-
-  handleIncrease = () => {
-    this.setState({
-      number: this.state.number + 1
-    });
-  }
-
-  handleDecrease = () => {
-    this.setState({
-      number: this.state.number - 1
-    });
-  }
-
-  render() {
-    return (
-      <div>
-        <h1>카운터</h1>
-        <div>값: {this.state.number}</div>
-        <button onClick={this.handleIncrease}>+</button>
-        <button onClick={this.handleDecrease}>-</button>
-      </div>
-    );
-  }
-}
-
-export default Counter;
-```
-## state 정의
-
-함수를 정의할때, 위처럼 arrow 함수를 사용하지 않고 아래와 같이 사용하는 경우도 있다.
-
-```jsx
-handleIncrease() {
-  this.setState({
-    number: this.state.number + 1
-  })
-}
-
-handleDecrease() {
-  this.setState({
-    number: this.state.number - 1
-  })
-}
-```
-위와 같은 경우에는 아래와 같이 constructor(props)와 super(props)를 호출해줘야 한다.
-
-```jsx
-class Counter extends React.Component {
-  state = {
-    number: 0
-  }
-  
-  constructor(props) {
-    super(props);
-    this.handleIncrease = this.handleIncrease.bind(this);
-    this.handleDecrease = this.handleDecrease.bind(this);
-    }
-  }
-
-  handleIncrease() {
-    this.setState({
-      number: this.state.number + 1
-    })
-  }
-
-  handleDecrease() {
-    this.setState({
-      number: this.state.number - 1
-    })
-  }
-
-  ....
-
-
-}
-
-```
-
-위를 본다면 class fields를 사용하는게 더 편리함을 알 수 있다.
-
-
-## setState
-
-this.setState에 대해 알아보자. state에 있는 값을 바꾸기 위해서는, this.setState를 무조건 거쳐야한다. 
-리액트에서는 이 함수가 호출되면 컴포넌트가 리렌더링 되도록 설계되어 있다. 또한, setState는 객체로 전달되는 값만 업데이트를 해준다.
-
-
-## 이벤트 설정
-
-render 함수에서 이벤트 설정을 한 부분을 확인해보자.
-
-```jsx
-render() {
-  return (
-    <div>
-      <h1>카운터</h1>
-      <div>값: {this.state.number}</div>
-      <button onClick={this.handleIncrease}>+</button>
-      <button onClick={this.handleDecrease}>-</button>
-    </div>
-  );
-}
-```
-
-위 코드의 이벤트중 onClick 속성을 살펴보자.
-여기서 우리가 주의해야 할 점이 있다.
- - 이벤트 이름을 설정할 때, camelCase로 설정해야한다. 
- - 이벤트에 전달하는 값은 함수여야 한다. 아래와 같이 작성하게 된다면 큰 일이 발생할 수 있다.
-
- ```jsx 
- onClick={this.handleIncrease()}
- ```
-
-위의 식으로 하게 된다면, 렌더링을 할 때 마다 해당 함수가 호출된다.
-렌더링 -> 함수 호출 -> setState -> 렌더링 -> 함수 호출 -> 무한반복.. 
-
-위와 같이 작성을 끝냈다면 해당 컴포넌트를 App에 불러와서 렌더링을 해보자.
-
-```jsx
-import React, { Component } from 'react';
-import Counter from './Counter';
-
-class App extends React.Component {
-  render() {
-    return (
-      <Counter />
-    );
-  }
-}
-
-export default App;
-```
+위 규칙을 숙지한다면 대부분의 CSS에 적용할 수 있을것이다.
 
 ### reference
-- https://react-anyone.vlpt.us/04.html
+
+- https://www.zerocho.com/category/CSS/post/588cb95ca63e64132496a5d5
