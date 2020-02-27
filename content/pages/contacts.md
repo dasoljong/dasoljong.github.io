@@ -8,7 +8,6 @@ socialImage: "/media/image-4.jpg"
 
 - https://www.dasoljong92@gmail.com
 
+<!-- ## Instagram
 
-## Instagram
-
-- https://www.instagram.com/dasoljong
+- https://www.instagram.com/dasoljong -->
