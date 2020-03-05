@@ -1,9 +1,9 @@
 ---
-title: "React - Named/Default export"
+title: "(React) Named/Default export"
 date: "2020-02-20T09:46:37.121Z"
 template: "post"
 draft: false
-slug: "React - Named/Default export"
+slug: "(React) Named/Default export"
 category: "React"
 tags:
   - "React"
@@ -20,7 +20,6 @@ socialImage: "/media/image-2.jpg"
 파일이나 모듈 안의 함수나, 객체를 export 하는데 사용된다.
 export에는 Named exports와 Default exports 두 가지 방법이 있다.
 
-
 ## Named exports
 
 Named exports는 여러 값을 export하는데 유용하다. export 된 이름을 사용하여 import하여 사용할 수 있다.
@@ -30,7 +29,7 @@ Named exports는 여러 값을 export하는데 유용하다. export 된 이름�
 ```jsx
 // module "my-module.js"
 function cube(x) {
-    return x * x * x;
+  return x * x * x;
 }
 const foo = Math.PI + Math.SQRT2;
 export { cube, foo };
@@ -39,11 +38,10 @@ export { cube, foo };
 위의 export된 값들을 import하여 사용할 때 아래와 같이 사용할 수 있습니다.
 
 ```jsx
-import { cube, foo } from 'my-module';
+import { cube, foo } from "my-module";
 console.log(cube(3)); // 27
-console.log(foo);    // 4.555806215962888
+console.log(foo); // 4.555806215962888
 ```
-
 
 ## Default exports
 
@@ -55,8 +53,8 @@ console.log(foo);    // 4.555806215962888
 ```jsx
 // module "my-module.js"
 let cube = function cube(x) {
-    return x * x * x;
-}
+  return x * x * x;
+};
 export default cube;
 ```
 
@@ -64,11 +62,10 @@ default exports된 값을 import 하는 방법은 아래와 같습니다.
 
 ```jsx
 // module "my-module.js"
-import myFunction from 'my-module';
+import myFunction from "my-module";
 console.log(myFunction(3)); // 27
 ```
 
-
-
 ### reference
+
 - https://beomy.tistory.com/22

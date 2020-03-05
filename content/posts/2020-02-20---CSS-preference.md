@@ -1,9 +1,9 @@
 ---
-title: "CSS - 우선순위 "
+title: "(CSS) CSS 우선순위 "
 date: "2020-02-26T01:46:37.121Z"
 template: "post"
 draft: false
-slug: "CSS - 우선순의"
+slug: "CSS - 우선순위"
 category: "React"
 tags:
   - "Frontend"

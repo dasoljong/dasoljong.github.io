@@ -1,5 +1,5 @@
 ---
-title: "React - Props"
+title: "(React) Props"
 date: "2020-02-19T07:46:37.121Z"
 template: "post"
 draft: false
@@ -23,17 +23,16 @@ props는 부모 컴포넌트가 자식 컴포넌트에게 주는 값이다. 자�
 
 반면 state 는 컴포넌트 내부에서 선언하며 내부에서 값을 변경 할 수 있다.
 
-
 ## 새 Component 만들기
 
 src 디렉토리에 MyName이라는 컴포넌트를 만들어보자.
 
 ```jsx
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class MyName extends React.Component {
   render() {
-    return(
+    return (
       <div>
         안녕하세요! 제 이름은 <b>{this.props.name}</b>입니다.
       </div>
@@ -50,14 +49,12 @@ export default MyName;
 App.js를 다음과 같이 열어보라.
 
 ```jsx
-import React, { Component } from 'react';
-import MyName from './MyName';
+import React, { Component } from "react";
+import MyName from "./MyName";
 
 class App extends React.Component {
-  render(){
-    return (
-      <MyName name='david' />
-    );
+  render() {
+    return <MyName name="david" />;
   }
 }
 
@@ -71,56 +68,44 @@ import를 통해 컴포넌트를 불러오고, 렌더링해보자. 이렇게 컴
 
 안녕하세요! 제 이름은 <b>daivd</b>입니다.
 
-
 ## defaultProps
 
 종종 실수로 props를 빠뜨릴 때도 있다. 혹은 특성 상황에서는 props를 일부러 비워두어야 할 때도 있다.
 이런 경우에 props의 기본값을 설정할 수 있는데 그것이 바로 defaultProps이다.
 
 ```jsx
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class MyName extends React.Component {
-
   static defaultProps = {
-    name: 'david'
+    name: "david"
   };
 
   render() {
-    return (
-      <div>
-        안녕하세요! 제 이름은 {this.props.name}입니다.
-      </div>
-    );
+    return <div>안녕하세요! 제 이름은 {this.props.name}입니다.</div>;
   }
 }
 
 export default MyName;
-
 ```
+
 이런 식으로 작성 후, App.js(부모 컴포넌트)에 <MyName /> 이런 식으로 name 값을 생략해버리면 'david'가 나타나게 될 것이다.
 defaultProps는 아래와 같은 형식으로도 작성 할 수 있으며 결과값은 같다.
 
 ```jsx
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class MyName extends React.Component {
-
   render() {
-    return (
-      <div>
-        안녕하세요! 제 이름은 {this.props.name}입니다.
-      </div>
-    );
+    return <div>안녕하세요! 제 이름은 {this.props.name}입니다.</div>;
   }
 }
 
 MyName.defaultProps = {
-  name: 'david'
+  name: "david"
 };
 
 export default MyName;
-
 ```
 
 ## 함수형 컴포넌트
@@ -129,21 +114,17 @@ export default MyName;
 바로, 함수형태로 작성하는 것이다.
 
 ```jsx
-import React from 'react';
+import React from "react";
 
 const MyName = ({ name }) => {
-  return (
-    <div>
-      안녕하세요! 제 이름은 {name}입니다.
-    </div>
-  );
+  return <div>안녕하세요! 제 이름은 {name}입니다.</div>;
 };
 
 MyName.defaultProps = {
-  name: 'david'
+  name: "david"
 };
-
 ```
 
 ### reference
+
 - https://react-anyone.vlpt.us/04.html
