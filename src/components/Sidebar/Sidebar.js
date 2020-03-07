@@ -5,7 +5,6 @@ import Contacts from "./Contacts";
 import Copyright from "./Copyright";
 import Menu from "./Menu";
 import styles from "./Sidebar.module.scss";
-import Tags from "../Post/Tags";
 import { useSiteMetadata } from "../../hooks";
 
 type Props = {
@@ -22,10 +21,6 @@ const Sidebar = ({ isIndex }: Props) => {
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
         <Copyright copyright={copyright} />
-        <Tags
-          tags={tags.map(tag => tag.fieldValue)}
-          tagSlugs={tags.map(tag => `/tag/${tag.fieldValue}`)}
-        />
       </div>
     </div>
   );
