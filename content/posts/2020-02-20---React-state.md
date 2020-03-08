@@ -18,8 +18,6 @@ description: "state & setState"
 socialImage: "/media/image-2.jpg"
 ---
 
-# State
-
 정해진 데이터를 다룰떈 props, 동적인 데이터를 다룰땐 state를 사용한다.
 아래 Counter 라는 파일을 생성해서 새로운 컴포넌트를 만들어 보았다.
 

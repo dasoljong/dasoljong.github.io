@@ -16,8 +16,6 @@ description: "Props & defaultProps"
 socialImage: "/media/image-2.jpg"
 ---
 
-# Props
-
 리엑트 컴포넌트에서 다루는 데이터는 두개로 나뉜다. 바로 props와 state이다.
 props는 부모 컴포넌트가 자식 컴포넌트에게 주는 값이다. 자식 컴포넌트는 부모 컴포넌트로부터 props를 받아오기만 하고, 받아온 props를 직접 수정할 수 없다.
 

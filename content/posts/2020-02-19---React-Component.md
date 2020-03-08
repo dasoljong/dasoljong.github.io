@@ -16,8 +16,6 @@ description: "Component"
 socialImage: "/media/image-2.jpg"
 ---
 
-# Component
-
 컴포넌트란 재사용 가능한 UI 단위이다. 컴포넌트를 하나만 만들고 여기저기서 재사용하면, input 디자인이 바꼈을 때 css 한 줄만 수정하면 로그인, 회원가입, 내정보수정 페이지에 바뀐 디자인이 모두 반영될 것이다.
 컴포넌트는 함수와 비슷하다. 함수도 기능이 독립적이고 재사용할 수가 있다. 컴포넌트 또한 input을 받아서 return 할 수 있다.
 
