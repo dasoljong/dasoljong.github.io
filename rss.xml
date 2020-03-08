@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Dasol Jong]]></title><description><![CDATA[David's blog]]></description><link>https://dasoljong.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Mar 2020 08:00:52 GMT</lastBuildDate><item><title><![CDATA[(GitHub) 프로젝트 올리기 ]]></title><description><![CDATA[GitHub에 프로젝트를 쉽게 올려보자]]></description><link>https://dasoljong.github.io/posts/GitHub에 프로젝트 올리기</link><guid isPermaLink="false">https://dasoljong.github.io/posts/GitHub에 프로젝트 올리기</guid><pubDate>Sun, 08 Mar 2020 08:46:37 GMT</pubDate><content:encoded>&lt;p&gt;어떠한 프로젝트를 진행할 때, 혹은 회사에 포트폴리오를 제출할 때 GitHub를 사용한다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Dasol Jong]]></title><description><![CDATA[David's blog]]></description><link>https://dasoljong.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Mar 2020 15:52:35 GMT</lastBuildDate><item><title><![CDATA[(GitHub) 프로젝트 올리기 ]]></title><description><![CDATA[GitHub에 프로젝트를 쉽게 올려보자]]></description><link>https://dasoljong.github.io/posts/GitHub에 프로젝트 올리기</link><guid isPermaLink="false">https://dasoljong.github.io/posts/GitHub에 프로젝트 올리기</guid><pubDate>Sun, 08 Mar 2020 08:46:37 GMT</pubDate><content:encoded>&lt;p&gt;어떠한 프로젝트를 진행할 때, 혹은 회사에 포트폴리오를 제출할 때 GitHub를 사용한다.
 아래를 통하여 GitHub에 프로젝트 올리는 방법을 쉽게 알아보자.&lt;/p&gt;
 &lt;p&gt;먼저 터미널에서 현재 진행중 혹은 진행 예정인 프로젝트 디렉토리에 아래 명령어를 입력한다.&lt;/p&gt;
 &lt;p&gt;$ git init&lt;/p&gt;
@@ -69,8 +69,8 @@ cd+[디렉토리 명]&lt;/p&gt;
 &lt;p&gt;설치한 React 프로젝트 디렉토리를 열어 package.json 파일에 “dependencies” 중 “react-router-dom” 이 있는지 확인&lt;/p&gt;
 &lt;p&gt;없으면&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$ yarn add react-router-dom&lt;/li&gt;
-&lt;li&gt;$ yarn add cross-env —dev&lt;/li&gt;
+&lt;li&gt;yarn add react-router-dom&lt;/li&gt;
+&lt;li&gt;yarn add cross-env —dev&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(2) react-router-dom: 브라우저에서 사용되는 리액트 라우터 입니다.&lt;/p&gt;
 &lt;p&gt;(3) cross-env: 프로젝트에서 NODE_PATH 를 사용하여 절대경로로 파일을 불러오기 위하여 환경 변수를 설정 할 때 운영체제마다 방식이 다르므로 공통적인 방법으로 설정 할 수 있게 해주는 라이브러리입니다.&lt;/p&gt;
