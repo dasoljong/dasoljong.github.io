@@ -35,10 +35,10 @@ module.exports = {
       "Written by Dasol who lives and works in Seoul, Korea building useful things.",
     contacts: {
       email: "dasoljong92@gmail.com",
-      facebook: "dasoljong",
+      // facebook: "dasoljong",
       github: "dasoljong"
       // linkedin: "dasoljong",
-      // instagram: "dasoljong"
+      instagram: "dasoljong"
     }
   }
 };
