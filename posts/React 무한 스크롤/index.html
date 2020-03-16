@@ -64,9 +64,7 @@
 <p>무한 스크롤이 사용될 부분의 코드는 두 개의 컴포넌트로 구성되어 있다.</p>
 <p>부모 역할을 하는 Bottom.js
 자식 역할을 하는 BottomBox.js</p>
-<ul>
-<li>BottomBox.js의 코드는 아래와 같다.</li>
-</ul>
+<p>/BottomBox.js</p>
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">const</span> <span class="token function-variable function">BottomBox</span> <span class="token operator">=</span> <span class="token parameter">props</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token punctuation">(</span>
     <span class="token operator">&lt;</span><span class="token operator">></span>
@@ -85,7 +83,7 @@
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> BottomBox<span class="token punctuation">;</span></code></pre></div>
-<p>Bottom.js의 코드는 아래에서 살펴보자.<br><br></p>
+<p><br><br></p>
 <h2 id="2-원하는-만큼의-데이터-받아오기" style="position:relative;"><a href="#2-%EC%9B%90%ED%95%98%EB%8A%94-%EB%A7%8C%ED%81%BC%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B0%9B%EC%95%84%EC%98%A4%EA%B8%B0" aria-label="2 원하는 만큼의 데이터 받아오기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. 원하는 만큼의 데이터 받아오기</h2>
 <p>백엔드로부터 받아오기 전에 만들어둔 mock data는 한 번에 모든 리스트를 뿌려주는 api이다. 즉, 내가 원하는 개수만큼의 데이터를 받지는 못한다.
 하지만, slice를 사용하여 최대한 비슷하게 구현해보자.</p>
@@ -114,14 +112,12 @@
   <span class="token punctuation">}</span></code></pre></div>
 <p>state중에 items와 preItems를 나눈 이유는 데이터를 겹치지 않게 6개씩 가져오게 하기 위함이다.
 위와 같이 콘솔을 찍어 보면 데이터가 잘 들어옴을 확인할 수 있다.</p>
-  <img alt="Lumen" title="Lumen" src="/public/media/infinite scroll.jpg" width="70%">
 <p>이제 서버로부터 데이터가 6개씩 들어옴을 확인했으니, 스크롤을 맨 끝까지 내리면 다음 6개 데이터를 추가로 보여주는 것을 구현해보자.<br><br></p>
 <h2 id="3-화면의-길이-구하기" style="position:relative;"><a href="#3-%ED%99%94%EB%A9%B4%EC%9D%98-%EA%B8%B8%EC%9D%B4-%EA%B5%AC%ED%95%98%EA%B8%B0" aria-label="3 화면의 길이 구하기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. 화면의 길이 구하기</h2>
 <p>여러 방법이 있겠지만 화면의 길이를 구할 수 있다면 새로운 데이터를 불러와서 랜더 시키는 것이 가능할 것이다. 보다 빠른 이해를 위해 아래 블로그를 읽어보자.</p>
 <p><a href="https://javascript.info/size-and-scroll" target="_blank" rel="nofollow noopener noreferrer">https://javascript.info/size-and-scroll</a></p>
 <h3 id="3-1-페이지-끝-구하기" style="position:relative;"><a href="#3-1-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%81%9D-%EA%B5%AC%ED%95%98%EA%B8%B0" aria-label="3 1 페이지 끝 구하기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3-1) 페이지 끝 구하기</h3>
 <p>스크롤 높이, 스크롤 탑, 클라이언트 높이를 이용한다면 페이지 끝을 구할 수 있다.</p>
-<img src="/public/media/geometry.png" alt="">
 <p>그림을 참고해보면 우리는 clientHeight, offsetHeight, scrollHeight, scrollTop, offsetTop 정도만 필요함을 알 수 있다.</p>
 <p>클라이언트 높이는 우리에게 보여지는 딱 그만큼이기에 고정값이다. 스크롤 높이는 클라이언트 화면에 보이지 않는 곳까지의 총 길이를 뜻한다. 즉, 사이트의 총 길이라 생각해도 무방하다. 스크롤 탑은 스크롤되어 올라간 만큼의 높이다. 스크롤해서 올라간다면 우리 눈에 보이지 않는 부분이 생기는데 바로 그 구간이 스크롤 탑이다.</p>
 <p>이와 같이, 스크롤탑과 클라이언트 높이의 같이 스크롤 높이와 같으면 그것은 페이지의 끝 값을 의미한다.</p>
