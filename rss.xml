@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Dasol Jong]]></title><description><![CDATA[David's blog]]></description><link>https://dasoljong.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Mar 2020 12:08:28 GMT</lastBuildDate><item><title><![CDATA[(Vue.js) Unexpected console statement. eslint(no-console) 에러]]></title><description><![CDATA[Unexpected console statement. eslint(no-console)]]></description><link>https://dasoljong.github.io/posts/console.log 에러</link><guid isPermaLink="false">https://dasoljong.github.io/posts/console.log 에러</guid><pubDate>Sat, 28 Mar 2020 07:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Vue를 통한 프로젝트를 진행하던 중 아래와 같은 문구와 함께 console.log가 먹히지 않았다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Dasol Jong]]></title><description><![CDATA[David's blog]]></description><link>https://dasoljong.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Mar 2020 01:18:07 GMT</lastBuildDate><item><title><![CDATA[(Vue.js) Unexpected console statement. eslint(no-console) 에러]]></title><description><![CDATA[Unexpected console statement. eslint(no-console)]]></description><link>https://dasoljong.github.io/posts/console.log 에러</link><guid isPermaLink="false">https://dasoljong.github.io/posts/console.log 에러</guid><pubDate>Sat, 28 Mar 2020 07:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Vue를 통한 프로젝트를 진행하던 중 아래와 같은 문구와 함께 console.log가 먹히지 않았다.&lt;/p&gt;
 &lt;p&gt;해당 문제를 해결하기 위해선 아래와 같은 문구를 매번 작성해주어야 했다.&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;// eslint-disable-next-line no-console&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;하지만 매번 해당 문구를 추가하는 것도 귀찮았고..코드를 보기에도 좋지 않아 근본적인 해결책을 찾아 공유한다.&lt;/p&gt;
@@ -23,7 +23,7 @@
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;reference&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=t0z0kSQIr38&amp;#x26;list=PLB7CpjPWqHOtYP7P_0Ls9XNed0NLvmkAh&amp;#x26;index=15&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://www.youtube.com/watch?v=t0z0kSQIr38&amp;#x26;list=PLB7CpjPWqHOtYP7P_0Ls9XNed0NLvmkAh&amp;#x26;index=15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eslint.org/docs/rules/no-console&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://eslint.org/docs/rules/no-console&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[(Vue.js) Single File Component]]></title><description><![CDATA[Single File Component에 관하여 알아보자]]></description><link>https://dasoljong.github.io/posts/Single File Component</link><guid isPermaLink="false">https://dasoljong.github.io/posts/Single File Component</guid><pubDate>Tue, 24 Mar 2020 10:46:37 GMT</pubDate><content:encoded>&lt;p&gt;과거에도 핫했지만 최근 들어 더욱 더 핫해지고 있는 Vue.js를 공부하기로 마음 먹었다.
 오늘은 props에 관하여 공부해보자.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
@@ -464,6 +464,29 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://medium.com/@ghur2002/react%EC%97%90%EC%84%9C-infinite-scroll-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-128d64ea24b5&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://medium.com/@ghur2002/react%EC%97%90%EC%84%9C-infinite-scroll-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-128d64ea24b5&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://javascript.info/size-and-scroll&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://javascript.info/size-and-scroll&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[(GitHub) 프로젝트 올리기 ]]></title><description><![CDATA[GitHub에 프로젝트를 쉽게 올려보자]]></description><link>https://dasoljong.github.io/posts/GitHub에 프로젝트 올리기</link><guid isPermaLink="false">https://dasoljong.github.io/posts/GitHub에 프로젝트 올리기</guid><pubDate>Sun, 08 Mar 2020 08:46:37 GMT</pubDate><content:encoded>&lt;p&gt;어떠한 프로젝트를 진행할 때, 혹은 회사에 포트폴리오를 제출할 때 GitHub를 사용한다.
+아래를 통하여 GitHub에 프로젝트 올리는 방법을 쉽게 알아보자.&lt;/p&gt;
+&lt;p&gt;먼저 터미널에서 현재 진행중 혹은 진행 예정인 프로젝트 디렉토리에 아래 명령어를 입력한다.&lt;/p&gt;
+&lt;p&gt;$ git init&lt;/p&gt;
+&lt;p&gt;해당 디렉토리에 .git 이라는 파일이 생성될 것이다.&lt;/p&gt;
+&lt;p&gt;처음으로 github에 파일을 올리는 것이기 때문에 프로젝트에 있는 파일 모든것을 올리는 것이 맞겠지만
+올리고 싶지 않은 파일이 있다면 .gitignore라는 파일을 추가하여 관리해주면 된다.&lt;/p&gt;
+&lt;p&gt;다음으로 git에 파일을 추가해보자.&lt;/p&gt;
+&lt;p&gt;$ git add .&lt;/p&gt;
+&lt;p&gt;git add .이라는 명령어는 모든 파일을 추가하는 명령어로 세부적으로 파일 하나하나를 추가하려면 git add &lt;filename&gt;을 입력하시면 된다.&lt;/p&gt;
+&lt;p&gt;/$ git status 를 입력해보면 추가된 파일들이 초록색으로 표시됨을 확인할 수 있다.&lt;/p&gt;
+&lt;p&gt;이제 commit 명령을 진행해보자.&lt;/p&gt;
+&lt;p&gt;$ git commit -m “수정/추가 내용”&lt;/p&gt;
+&lt;p&gt;이러면 이제 github 저장소(레파지토리)에 push를 할 준비가 완료된 것이다. 하지만 이 파일들을 push해줄 github 저장소가 없다. 왜냐하면 아직 연결을 안해줬기 때문.&lt;/p&gt;
+&lt;p&gt;GitHub 홈페이지에 접속해 New respository를 통하여 새로운 레파지토리를 생성한다.&lt;/p&gt;
+&lt;p&gt;생성이 완료되면 저장소 주소를 복사한 뒤 다시 터미널로 돌아와 아래 명령어를 입력하자.&lt;/p&gt;
+&lt;p&gt;$ git remote add &amp;#x3C;저장소에 접속할 이름&gt; &amp;#x3C;저장소 주소&gt;
+(보통 &amp;#x3C;저장소에 접속할 이름&gt;은 origin으로 많이 사용한다.)&lt;/p&gt;
+&lt;p&gt;이젠 저장소로 연결이 된거고 git push를 진행하면 된다.&lt;/p&gt;
+&lt;h3 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;reference&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://velog.io/@kj1509/React-%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85-&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://velog.io/@kj1509/React-%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85-&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://velog.io/@ppl8709/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85%EA%B3%BC-SASS-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://velog.io/@ppl8709/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85%EA%B3%BC-SASS-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[(React) 초기세팅 ]]></title><description><![CDATA[React 초기세팅을 해보자]]></description><link>https://dasoljong.github.io/posts/React 초기세팅</link><guid isPermaLink="false">https://dasoljong.github.io/posts/React 초기세팅</guid><pubDate>Sun, 08 Mar 2020 08:46:37 GMT</pubDate><content:encoded>&lt;p&gt;React를 통하여 프로젝트를 진행하기 위해서는 반드시 초기세팅을 거쳐야한다.
 그 방법은 프로젝트마다 조금씩 다를 수 있겠지만 보편적으로 아래와 같은 방법을 거치면 된다.&lt;/p&gt;
 &lt;h2 id=&quot;1trello&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1trello&quot; aria-label=&quot;1trello permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1.Trello&lt;/h2&gt;
@@ -569,29 +592,6 @@ Prettier는 파일 저장 시점이나 Git 에 커밋할 때 코드를 자동으
     &lt;span class=&quot;token string&quot;&gt;&quot;prettier/prettier&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;error&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;reference&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://velog.io/@kj1509/React-%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85-&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://velog.io/@kj1509/React-%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85-&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://velog.io/@ppl8709/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85%EA%B3%BC-SASS-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://velog.io/@ppl8709/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85%EA%B3%BC-SASS-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[(GitHub) 프로젝트 올리기 ]]></title><description><![CDATA[GitHub에 프로젝트를 쉽게 올려보자]]></description><link>https://dasoljong.github.io/posts/GitHub에 프로젝트 올리기</link><guid isPermaLink="false">https://dasoljong.github.io/posts/GitHub에 프로젝트 올리기</guid><pubDate>Sun, 08 Mar 2020 08:46:37 GMT</pubDate><content:encoded>&lt;p&gt;어떠한 프로젝트를 진행할 때, 혹은 회사에 포트폴리오를 제출할 때 GitHub를 사용한다.
-아래를 통하여 GitHub에 프로젝트 올리는 방법을 쉽게 알아보자.&lt;/p&gt;
-&lt;p&gt;먼저 터미널에서 현재 진행중 혹은 진행 예정인 프로젝트 디렉토리에 아래 명령어를 입력한다.&lt;/p&gt;
-&lt;p&gt;$ git init&lt;/p&gt;
-&lt;p&gt;해당 디렉토리에 .git 이라는 파일이 생성될 것이다.&lt;/p&gt;
-&lt;p&gt;처음으로 github에 파일을 올리는 것이기 때문에 프로젝트에 있는 파일 모든것을 올리는 것이 맞겠지만
-올리고 싶지 않은 파일이 있다면 .gitignore라는 파일을 추가하여 관리해주면 된다.&lt;/p&gt;
-&lt;p&gt;다음으로 git에 파일을 추가해보자.&lt;/p&gt;
-&lt;p&gt;$ git add .&lt;/p&gt;
-&lt;p&gt;git add .이라는 명령어는 모든 파일을 추가하는 명령어로 세부적으로 파일 하나하나를 추가하려면 git add &lt;filename&gt;을 입력하시면 된다.&lt;/p&gt;
-&lt;p&gt;/$ git status 를 입력해보면 추가된 파일들이 초록색으로 표시됨을 확인할 수 있다.&lt;/p&gt;
-&lt;p&gt;이제 commit 명령을 진행해보자.&lt;/p&gt;
-&lt;p&gt;$ git commit -m “수정/추가 내용”&lt;/p&gt;
-&lt;p&gt;이러면 이제 github 저장소(레파지토리)에 push를 할 준비가 완료된 것이다. 하지만 이 파일들을 push해줄 github 저장소가 없다. 왜냐하면 아직 연결을 안해줬기 때문.&lt;/p&gt;
-&lt;p&gt;GitHub 홈페이지에 접속해 New respository를 통하여 새로운 레파지토리를 생성한다.&lt;/p&gt;
-&lt;p&gt;생성이 완료되면 저장소 주소를 복사한 뒤 다시 터미널로 돌아와 아래 명령어를 입력하자.&lt;/p&gt;
-&lt;p&gt;$ git remote add &amp;#x3C;저장소에 접속할 이름&gt; &amp;#x3C;저장소 주소&gt;
-(보통 &amp;#x3C;저장소에 접속할 이름&gt;은 origin으로 많이 사용한다.)&lt;/p&gt;
-&lt;p&gt;이젠 저장소로 연결이 된거고 git push를 진행하면 된다.&lt;/p&gt;
 &lt;h3 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;reference&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://velog.io/@kj1509/React-%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85-&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://velog.io/@kj1509/React-%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85-&lt;/a&gt;&lt;/li&gt;
