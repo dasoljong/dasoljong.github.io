@@ -1,5 +1,5 @@
 ---
-title: "old version of package 인스톨 방법"
+title: "Old version of package 인스톨 방법"
 date: "2020-03-31T07:46:37.121Z"
 template: "post"
 draft: false
