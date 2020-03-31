@@ -20,9 +20,7 @@ socialImage: "/media/image-2.jpg"
 
 만약 어떤 버전으로 되돌아 갈 수 있는지 확인하고 싶다면 아래 명령어를 입력하면 확인할 수 있다.
 
-```npm view <package> versions
-
-```
+`npm view <package> versions`
 
 ### reference
 
