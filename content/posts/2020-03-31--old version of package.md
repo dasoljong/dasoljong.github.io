@@ -6,7 +6,7 @@ draft: false
 slug: "old version of package로 돌아가기"
 category: ""
 tags:
-  - "Vue.js"
+  - "npm"
   - "Frontend"
 description: "old version of package로 돌아가기 & 돌아갈 수 있는 버전 확인법"
 socialImage: "/media/image-2.jpg"
