@@ -4,9 +4,9 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
-## Harry Potter Website 클론
+## Harry Potter Official Website 클론
 
-영화 해리포터의 Official Website를 클론코딩 프로젝트.
+영화 해리포터의 Official Website 클론코딩 프로젝트.
 개발기간 : 2주 (2020.03.09-2020.03.20)
 인원 : 프론트엔드 3명 & 백엔드 2명
 
