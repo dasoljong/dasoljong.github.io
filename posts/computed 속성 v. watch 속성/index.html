@@ -63,7 +63,9 @@
 하지만 데이터 변경의 응답으로 비동기식 계산이 필요한 경우나 시간이 많이 소요되는 계산을 해야 할 때 watch를 사용하는 것이 좋다. (개인적으로 데이터가 변경되어 API를 호출해야 할 때, watch를 사용한다.)
 (역자 주: watch 속성은 감시할 데이터를 지정하고 그 데이터가 바뀌면 이런 함수를 실행하라는 방식으로 소프트웨어 공학에서 이야기하는 ‘명령형 프로그래밍’ 방식. computed 속성은 계산해야 하는 목표 데이터를 정의하는 방식으로 소프트웨어 공학에서 이야기하는 ‘선언형 프로그래밍’ 방식.)
 다음 예제를 살펴봅시다.</p>
+<p>//html</p>
 <div class="gatsby-highlight" data-language="html"><pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>demo<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>{{ fullName }}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre></div>
+<p>//js</p>
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">var</span> vm <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
   el<span class="token operator">:</span> <span class="token string">"#demo"</span><span class="token punctuation">,</span>
   data<span class="token operator">:</span> <span class="token punctuation">{</span>
@@ -82,6 +84,7 @@
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
 <p>위의 코드는 watch 속성을 사용한 명령형이고 또 코드를 반복한다.
 아래 computed 속성을 사용하는 방식을 보자.</p>
+<p>//js</p>
 <div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token keyword">var</span> vm <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
   el<span class="token operator">:</span> <span class="token string">"#demo"</span><span class="token punctuation">,</span>
   data<span class="token operator">:</span> <span class="token punctuation">{</span>
