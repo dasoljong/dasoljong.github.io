@@ -69,10 +69,10 @@ console.log(name); // react
 const는 변수 재선언, 변수 재할당 모두 불가능하다.
 
 ```js
-let name = "Daivd";
+const name = "Daivd";
 console.log(name); // David
 
-let name = "John";
+const name = "John";
 console.log(name);
 // Uncaught SyntaxError: Identifier 'name' has already been declared
 
