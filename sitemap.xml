@@ -3,35 +3,35 @@
 <url> <loc>https://dasoljong.github.io/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://dasoljong.github.io/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/pages/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://dasoljong.github.io/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/DOM</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/Reverse Integer</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://dasoljong.github.io/posts/Roman to Number</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/position-of-JVS</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://dasoljong.github.io/posts/Basic of React</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/특정 CSS 선택잘르 가진 첫 번째 요소를 선택하는 메서드</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://dasoljong.github.io/posts/Roman to Number</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/React - Component</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://dasoljong.github.io/posts/React - JSX</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://dasoljong.github.io/posts/Basic of React</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/React - Props</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://dasoljong.github.io/posts/React - JSX</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/CSS - 우선순위</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/(React) Named/Default export</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/React - state</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/JavaScript - e.preventDefault()</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/JSON</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://dasoljong.github.io/posts/config.js 파일에 URL 관리하기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/GitHub에 프로젝트 올리기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://dasoljong.github.io/posts/React 초기세팅</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://dasoljong.github.io/posts/config.js 파일에 URL 관리하기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/React 무한 스크롤</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://dasoljong.github.io/posts/JS 동기/비동기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/fetch시 태그 통째로 가져오기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/import 파일 순서 정리 및 경로 줄이기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://dasoljong.github.io/posts/React 초기세팅</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/Single File Component</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/console.log 에러</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://dasoljong.github.io/posts/old version of package로 돌아가기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://dasoljong.github.io/posts/JS 동기/비동기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/gitignore</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://dasoljong.github.io/posts/computed 속성 v. watch 속성</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/HyperText Transfer Protocol</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://dasoljong.github.io/posts/old version of package로 돌아가기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://dasoljong.github.io/posts/computed 속성 v. watch 속성</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/ 클래스 &amp; 스타일 바인딩</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/크로스 브라우징, 시멘틱 마크업, PWA</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://dasoljong.github.io/posts/var, let, const의 차이</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
