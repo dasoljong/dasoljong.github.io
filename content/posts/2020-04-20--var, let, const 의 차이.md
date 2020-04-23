@@ -17,7 +17,7 @@ socialImage: "/media/image-2.jpg"
 자바스크립트의 변수 선언 방식은 세가지로 나눌 수 있다.<br>
 var, let, 그리고 const.
 
-<h1>변수 선언 방식</h1>
+<h2>변수 선언 방식</h2>
 
 <h3>1. var</h3>
 
