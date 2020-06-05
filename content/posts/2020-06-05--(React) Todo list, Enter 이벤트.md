@@ -4,7 +4,7 @@ date: "2020-06-05T09:46:37.121Z"
 template: "post"
 draft: false
 slug: "Todo list, Enter로 Input 입력하기"
-category: ""
+category: "React"
 tags:
   - "Vue.js"
 description: "Todo list, Enter로 Input 입력하기"
