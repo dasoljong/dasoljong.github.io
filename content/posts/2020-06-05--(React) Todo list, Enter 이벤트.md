@@ -6,7 +6,7 @@ draft: false
 slug: "Todo list, Enter로 Input 입력하기"
 category: "React"
 tags:
-  - "Vue.js"
+  - "React"
 description: "Todo list, Enter로 Input 입력하기"
 socialImage: "/media/image-2.jpg"
 ---
