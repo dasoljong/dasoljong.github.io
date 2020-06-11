@@ -12,7 +12,9 @@ description: "배열 안 list 추가(concat)"
 socialImage: "/media/image-2.jpg"
 ---
 
-배열에 리스트를 추가하기 위해서는 concat을 사용하면 된다.
+자바스크립트로 배열 안에 새 데이터를 추가할때는 보통 push를 사용한다.
+하지만 리액트에서는 절대 push를 사용해서는 안된다.
+대신, <b>concat<b>을 사용하도록 하자!
 
 ```js
 let ar = [10, 20, 30, 40, 50];
