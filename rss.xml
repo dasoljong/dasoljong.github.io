@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Dasol Jong]]></title><description><![CDATA[David's blog]]></description><link>https://dasoljong.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 Jun 2020 15:21:45 GMT</lastBuildDate><item><title><![CDATA[(React) defaultProps & propTypes]]></title><description><![CDATA[defaultProps & propTypes]]></description><link>https://dasoljong.github.io/posts/defaultProps &amp; propTypes</link><guid isPermaLink="false">https://dasoljong.github.io/posts/defaultProps &amp; propTypes</guid><pubDate>Thu, 11 Jun 2020 09:46:37 GMT</pubDate><content:encoded>&lt;p&gt;컴포넌트의 필수 props를 지정하거나 props의 타입(type)을 지정할 때는 propTypes를 사용하면 된다.&lt;br&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Dasol Jong]]></title><description><![CDATA[David's blog]]></description><link>https://dasoljong.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 15 Jun 2020 08:17:13 GMT</lastBuildDate><item><title><![CDATA[(React) defaultProps & propTypes]]></title><description><![CDATA[defaultProps & propTypes]]></description><link>https://dasoljong.github.io/posts/defaultProps &amp; propTypes</link><guid isPermaLink="false">https://dasoljong.github.io/posts/defaultProps &amp; propTypes</guid><pubDate>Thu, 11 Jun 2020 09:46:37 GMT</pubDate><content:encoded>&lt;p&gt;컴포넌트의 필수 props를 지정하거나 props의 타입(type)을 지정할 때는 propTypes를 사용하면 된다.&lt;br&gt;
 또한, props의 기본값을 설정하기 위해서는 defaultProps를 사용하면 된다.&lt;br&gt;
 아래 코드를 살펴보자.&lt;/p&gt;
 &lt;h2&gt;클래스형 컴포넌트&lt;/h2&gt;
@@ -94,24 +94,7 @@ defaultProps와 propTypes를 필수 사항이 아니다. 사용 유무는 개인
 &lt;h3 id=&quot;reference&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#reference&quot; aria-label=&quot;reference permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;reference&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://velopert.com/3480-&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://velopert.com/3480-&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[국가 경제와 시장의 불균형에 관하여]]></title><description><![CDATA[국가 경제와 시장의 불균형에 관하여 알아보자]]></description><link>https://dasoljong.github.io/posts/국가 경제와 시장의 불균형에 관하여</link><guid isPermaLink="false">https://dasoljong.github.io/posts/국가 경제와 시장의 불균형에 관하여</guid><pubDate>Fri, 05 Jun 2020 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;요즘 세계 경제와 시장이 난리도 아니다..
-&lt;br&gt;
-국가 경제와 시장의 불균형의 원인은 무엇인지 고민해보았다.
-&lt;br&gt;&lt;/p&gt;
-&lt;ul&gt;
-1. 코로나19로 실물경제가 멈춤. 물가하락 압력.&lt;br&gt;
-2. 경제 살리려고 미 중앙은행이 금융위기때 배운대로 돈을 찍어내는 중.&lt;br&gt;
-3. 찍어낸 돈이 실물경제로는 안흐르고 자산시장으로 몰림. 결국, 경제는 디플레이션 / 시장은 인플레이션.&lt;br&gt;
-4. 경제는 디플레 - 무제한 양적 완화로 계속 찍어내보지만 다 시장으로만 흘러 효과 없음.&lt;br&gt;
-5. 시장은 인플레 - 화폐가치 하락으로 명목 가격이 올라 반등처럼 보이는 착시. 실질적으론 아직도 폭락한 상태라 두 번째 폭락이 안 오는 것.&lt;br&gt;
-6. 위기가 끝나면 과도하게 푼 돈이 뒤늦게 경제에 풀릴 가능성.&lt;br&gt;
-7. 자산가치 상승과 화폐가치 하락으로 예금 적금은 실질적으로 위험자산.&lt;br&gt;
-8. 상대적으로 현금 비중이 높은 중산층 타격 제일 클 듯. 주식•부동산 비중이 높은 자산가와 중산층 격차 심화 예상.&lt;br&gt;
-9. 2008년 양적 완화 첫 개시 후 10년간 역대 최고의 주식 상승 랠리. 그 땐 처음이라 소심했지만 지금은 훨씬 과감히 돈 찍는 중. 이번엔 한국 일본도 사실상 무제한 양적 완화.
-&lt;/ul&gt;
-&lt;br&gt;
-&lt;p&gt;결론:&lt;/p&gt;
-&lt;h2&gt;돈 벌었따^^^^&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[(React) Todo list, Enter로 Input 입력하기]]></title><description><![CDATA[Todo list, Enter로 Input 입력하기]]></description><link>https://dasoljong.github.io/posts/Todo list, Enter로 Input 입력하기</link><guid isPermaLink="false">https://dasoljong.github.io/posts/Todo list, Enter로 Input 입력하기</guid><pubDate>Fri, 05 Jun 2020 09:46:37 GMT</pubDate><content:encoded>&lt;p&gt;프로젝트를 진행할 때, 편의성을 위해 자주 적용되는 이벤트 중 하나가 엔터 키를 눌렀을 때 어떠한 종류의 버튼을 클릭되게 하는 것이다.&lt;br&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[(React) Todo list, Enter로 Input 입력하기]]></title><description><![CDATA[Todo list, Enter로 Input 입력하기]]></description><link>https://dasoljong.github.io/posts/Todo list, Enter로 Input 입력하기</link><guid isPermaLink="false">https://dasoljong.github.io/posts/Todo list, Enter로 Input 입력하기</guid><pubDate>Fri, 05 Jun 2020 09:46:37 GMT</pubDate><content:encoded>&lt;p&gt;프로젝트를 진행할 때, 편의성을 위해 자주 적용되는 이벤트 중 하나가 엔터 키를 눌렀을 때 어떠한 종류의 버튼을 클릭되게 하는 것이다.&lt;br&gt;
 하단의 Todo 코드를 통해 해당 내용을 살펴보자.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;  &lt;span class=&quot;token comment&quot;&gt;// (소스 생략)...&lt;/span&gt;
 
