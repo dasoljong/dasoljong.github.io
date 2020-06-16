@@ -77,7 +77,7 @@ export default MyComponent;
 ```
 
 <br>
-defaultProps와 propTypes를 필수 사항이 아니다. 사용 유무는 개인의 선택이지만 대형 프로젝트를 진행할 때 사용한다면 많은 오류를 줄일 수 있다..
+defaultProps와 propTypes를 필수 사항이 아니다. 사용 유무는 개인의 선택이지만 대형 프로젝트를 진행할 때 사용한다면 많은 오류를 줄일 수 있다.
 
 ### reference
 
