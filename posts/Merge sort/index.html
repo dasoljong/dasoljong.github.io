@@ -59,19 +59,20 @@
         gtag('config', 'UA-73379983-2', {"send_page_view":false});
       }
       </script><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="icon" href="/icons/icon-48x48.png?v=54c3ee639d102c67ab11335dcd347ebd"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#F7A046"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=54c3ee639d102c67ab11335dcd347ebd"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=54c3ee639d102c67ab11335dcd347ebd"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=54c3ee639d102c67ab11335dcd347ebd"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=54c3ee639d102c67ab11335dcd347ebd"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=54c3ee639d102c67ab11335dcd347ebd"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=54c3ee639d102c67ab11335dcd347ebd"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=54c3ee639d102c67ab11335dcd347ebd"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=54c3ee639d102c67ab11335dcd347ebd"/><title data-react-helmet="true">Q: merge sort를 만들어보자(병합정렬) - Blog by Dasol Jong</title><meta data-react-helmet="true" name="description" content="merge sort를 만들어보자"/><meta data-react-helmet="true" property="og:site_name" content="Q: merge sort를 만들어보자(병합정렬) - Blog by Dasol Jong"/><meta data-react-helmet="true" property="og:image" content="https://dasoljong.github.io/media/image-2.jpg"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:title" content="Q: merge sort를 만들어보자(병합정렬) - Blog by Dasol Jong"/><meta data-react-helmet="true" name="twitter:description" content="merge sort를 만들어보자"/><meta data-react-helmet="true" name="twitter:image" content="https://dasoljong.github.io/media/image-2.jpg"/><link as="script" rel="preload" href="/webpack-runtime-f8a5656cdb77d7277a5c.js"/><link as="script" rel="preload" href="/netlify-identity-widget-8e6f024872c0d48ae324.js"/><link as="script" rel="preload" href="/app-f66e7fe6016925b95646.js"/><link as="script" rel="preload" href="/styles-117479406f6e61ad4793.js"/><link as="script" rel="preload" href="/commons-9a28fe12c83fc290a557.js"/><link as="script" rel="preload" href="/component---src-templates-post-template-js-79aca555a8e89c588cec.js"/><link as="fetch" rel="preload" href="/page-data/posts/Merge sort/page-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div class="Layout-module--layout--3Pyz6"><div><a class="Post-module--post__home-button--16Kl0" href="/">All Articles</a><div><div class="Content-module--content--3p512"><h1 class="Content-module--content__title--2BDW9">Q: merge sort를 만들어보자(병합정렬)</h1><div class="Content-module--content__body--2TrQ-"><h3 id="문제" style="position:relative;"><a href="#%EB%AC%B8%EC%A0%9C" aria-label="문제 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>문제:</h3>
-<p><br>1. 리스트의 길이가 0 또는 1이면 이미 정렬된 것으로 본다. 그렇지 않은 경우에는</p>
-<p><br>2. 정렬되지 않은 리스트를 절반으로 잘라 비슷한 크기의 두 부분 리스트로 나눈다.</p>
-<p><br>3. 각 부분 리스트를 재귀적으로 합병 정렬을 이용해 정렬한다.</p>
-<p><br>4. 두 부분 리스트를 다시 하나의 정렬된 리스트로 합병한다.</p>
-<p><br>다음 코드의 빈칸을 채워 병합정렬을 완성해 보자.</p>
+<p><br>1. 리스트의 길이가 0 또는 1이면 이미 정렬된 것으로 본다. 그렇지 않은 경우에는
+<br>2. 정렬되지 않은 리스트를 절반으로 잘라 비슷한 크기의 두 부분 리스트로 나눈다.
+<br>3. 각 부분 리스트를 재귀적으로 합병 정렬을 이용해 정렬한다.
+<br>4. 두 부분 리스트를 다시 하나의 정렬된 리스트로 합병한다.<br>
+<br>다음 코드의 빈칸을 채워 병합정렬을 완성해 보자.</p>
 <h3 id="풀이" style="position:relative;"><a href="#%ED%92%80%EC%9D%B4" aria-label="풀이 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>풀이:</h3>
 <p>아래와 같은 숫자 배열이 있다 가정하고 이를 계속해서 절반으로 자른다.<br>
+<br>
 [1, 3, 5, 4, 8, 6, 7, 2]<br>
 [1, 3, 5, 4], [8, 6, 7, 2]<br>
 [1, 3], [5, 4], [8, 6], [7, 2]<br>
 [1], [3], [5], [4], [8], [6], [7], [2]<br>
-이제 두 개씩 합쳐서 작은 것을 왼편으로 옮긴다.<br>
-[1, 3], [4, 5], [6, 8], [2, 7]<br>
+<br>이제 두 개씩 합쳐서 작은 것을 왼편으로 옮긴다.<br>
+<br>[1, 3], [4, 5], [6, 8], [2, 7]<br>
 [1, 3, 4, 5], [2, 6, 7, 8]<br>
 [1, 2, 3, 4, 5, 6, 7 ,8]<br></p>
 <p>첫 번째 라인부터 네 번째 라인까지는 나눠지는 부분이고, 그 밑은 합쳐지는 부분이다.<br></p>
