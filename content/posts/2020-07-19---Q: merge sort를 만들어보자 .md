@@ -1,5 +1,5 @@
 ---
-title: "Q: merge sort를 만들어보자"
+title: "Q: merge sort를 만들어보자(병합정렬)"
 date: "2020-07-17T23:46:37.121Z"
 template: "post"
 draft: false
