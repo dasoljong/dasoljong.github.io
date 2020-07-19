@@ -9,6 +9,7 @@ tags:
   - "CodeKata"
   - "Frontend"
   - "JavaScript"
+  - "WeCode"
 description: "merge sort를 만들어보자"
 socialImage: "/media/image-2.jpg"
 ---
@@ -80,9 +81,3 @@ console.log(mergeSort(array)); //[1, 2, 3, 4, 5, 6, 7, 8]
 ### reference
 
 - https://www.notion.so/51-merge-sort-217249ae47f2424baeab023685c90830
-
-### Tag
-
-태그 어케하는지 모르겠다......
-
-- WeCode
