@@ -4,7 +4,7 @@ date: "2020-06-10T09:46:37.121Z"
 template: "post"
 draft: false
 slug: "마우스 hover때 특정한 <div>보여주기 외 1"
-category: "React"
+category: "css"
 tags:
   - "React"
   - "Todo List"
