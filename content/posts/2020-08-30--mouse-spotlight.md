@@ -153,6 +153,7 @@ _mh.bigArea.addEventListener("mouseout", _mh.mouseOut);
 }
 ```
 
+<!--
 ### reference
 
-- https://velog.io/@haileyself/TIL-Ajax-fetch-promise-uak0t7wne7
+- https://velog.io/@haileyself/TIL-Ajax-fetch-promise-uak0t7wne7 -->
